@@ -64,15 +64,15 @@ Designed for **maximum focus, minimal interference**.
    - Edge: Navigate to edge://extensions/
 
 2. **Enable Developer Mode**  
-   → Toggle the switch in the top-right corner
+   - Toggle the switch in the top-right corner
 
 3. **Load the extension**  
-   → Click **"Load unpacked"**  
-   → Select the `Focus-Tube` directory
+   - Click **"Load unpacked"**  
+   - Select the `Focus-Tube` directory
 
 4. **Pin the extension (optional)**  
-   → Click the puzzle icon in the toolbar  
-   → Pin **"Focus Tube"**
+   - Click the puzzle icon in the toolbar  
+   - Pin **"Focus Tube"**
 
 ### Firefox (Temporary Load)
 1. Go to `about:debugging#/runtime/this-firefox`  
