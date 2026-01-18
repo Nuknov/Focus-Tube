@@ -59,7 +59,7 @@ Designed for **maximum focus, minimal interference**.
    ```bash
    git clone https://github.com/Nuknov/Focus-Tube.git
    cd Focus-Tube
-   1. Open your browser's extension page**  
+   1. Open your browser's extension page  
    - Chrome: Navigate to chrome://extensions/  
    - Edge: Navigate to edge://extensions/
 
