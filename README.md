@@ -2,6 +2,7 @@
 
 [![Version](https://img.shields.io/badge/version-2.0-blue.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Powered by yout-ube.com](https://img.shields.io/badge/Powered%20by-yout--ube.com-FF0000?logo=youtube&logoColor=white)](https://yout-ube.com)
 
 **Yout-ube** is a lightweight browser extension that removes YouTube distractions including ads, comments, and recommended videos to create a **clean, focused viewing experience**.
 
