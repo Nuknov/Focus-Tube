@@ -4,7 +4,7 @@
   <style>
     body {
       width: 280px;
-      height: 220px;
+      height: 240px; /* Slightly increased to fit footer */
       margin: 0;
       background: #000;
       color: #ff0000;
@@ -23,7 +23,7 @@
       color: #0f0;
       border: 1px solid #0f0;
       padding: 5px;
-      font-size: 10px;
+      font-size: 13px;
       text-align: center;
       word-break: break-all;
       border-radius: 2px;
@@ -39,15 +39,25 @@
       cursor: pointer;
       margin-top: 6px;
     }
+    .footer {
+      font-size: 15px;
+      color: #0f0;
+      margin-top: 60px;
+      opacity: 0.7;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
-  <div style="font-weight:bold;font-size:20px;color:#ff0000">Focus Tube</div>
+  <div style="font-weight:bold;font-size:20px;color:#ff0000">Yout-ube Extension</div>
   
-  <div class="label">PROXY LINK:</div>
+  <div class="label">COPY LINK:</div>
   <div class="url" id="proxyUrl">Loading...</div>
   
-  <button class="copy-btn" id="copyBtn">COPY PROXY LINK</button>
+  <button class="copy-btn" id="copyBtn">COPY LINK</button>
+
+  <!-- Footer credit -->
+  <a class="footer" target="_blank" href="https://www.yout-ube.com/">Powered By yout-ube.com</a>
 
   <script src="popup.js"></script>
 </body>
