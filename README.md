@@ -12,7 +12,7 @@ Built for **students, researchers, and red team enthusiasts** who value deep foc
 
 ## 📸 **Screenshot**
 
-![Yout-ube in action](SS2.jpg)
+![Yout-ube in action](SS3.jpg)
 
 ---
 
