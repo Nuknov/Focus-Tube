@@ -1,9 +1,9 @@
-# 🔥 **Focus Tube -- Distraction-Free YouTube Viewer**
+# 🔥 **Yout-ube -- Distraction-Free YouTube Viewer**
 
 [![Version](https://img.shields.io/badge/version-1.0-blue.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-**Focus Tube** is a lightweight browser extension that removes YouTube distractions including ads, comments, and recommended videos to create a **clean, focused viewing experience**.
+**Yout-ube** is a lightweight browser extension that removes YouTube distractions including ads, comments, and recommended videos to create a **clean, focused viewing experience**.
 
 Minimal. Fast. Ethical.  
 Built for **students, researchers, and red team enthusiasts** who value deep focus over noise.
@@ -12,11 +12,11 @@ Built for **students, researchers, and red team enthusiasts** who value deep foc
 
 ## 📸 **Screenshot**
 
-![Focus Tube in action](SS1.jpg)
+![Yout-ube in action](SS1.jpg)
 
 ---
 
-## 🧩 **What Focus Tube Does**
+## 🧩 **What Yout-ube Does**
 
 - Hides **YouTube ad placeholders** (visual only)
 - Removes the **comments section**
@@ -57,8 +57,8 @@ Designed for **maximum focus, minimal interference**.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Nuknov/Focus-Tube.git
-   cd Focus-Tube
+   git clone https://github.com/Nuknov/Yout-ube.git
+   cd Yout-ube
    1. Open your browser extension page  
    - Chrome: Navigate to chrome://extensions/  
    - Edge: Navigate to edge://extensions/
@@ -68,11 +68,11 @@ Designed for **maximum focus, minimal interference**.
 
 3. **Load the extension**  
    - Click **"Load unpacked"**  
-   - Select the `Focus-Tube` directory
+   - Select the `Yout-ube` directory
 
 4. **Pin the extension (optional)**  
    - Click the puzzle icon in the toolbar  
-   - Pin **"Focus Tube"**
+   - Pin **"Yout-ube"**
 
 ### Firefox (Temporary Load)
 1. Go to `about:debugging#/runtime/this-firefox`  
@@ -83,7 +83,7 @@ Designed for **maximum focus, minimal interference**.
 
 ## ⚙️ How It Works
 
-Focus Tube uses **client-side DOM manipulation** to:
+Yout-ube uses **client-side DOM manipulation** to:
 - Inject CSS rules that hide `.ad-container`, `#comments`, `#related`, etc.
 - Remove distracting elements without altering network traffic
 - Preserve core YouTube functionality (playback, captions, settings)
@@ -126,3 +126,7 @@ Ideal for the **learning phase** where focus drives understanding.
 ## **Author**
 
 **Created by:** [Nuknov](https://github.com/Nuknov)
+
+---
+
+💡 **Powered by [yout-ube.com](https://yout-ube.com)** — Watch YouTube ad-free, on loop, in full screen.
