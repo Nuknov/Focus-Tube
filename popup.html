@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>ilumu</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #111111;
+      --input-bg: #f8f9fa;
+      --input-border: #ccc;
+      --btn-bg: #ff0000;
+      --btn-hover: #e00000;
+      --footer: #777;
+      --accent: #ff0000;
+    }
+
+    .dark-theme {
+      --bg: #121212;
+      --text: #e0e0e0;
+      --input-bg: #2a2a2a;
+      --input-border: #444;
+      --btn-bg: #d32f2f;
+      --btn-hover: #b71c1c;
+      --footer: #aaa;
+      --accent: #ff5252;
+    }
+
+    body {
+      width: 340px;
+      padding: 20px;
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    h1::before {
+      content: "▶";
+      font-size: 16px;
+    }
+
+    .theme-toggle {
+      background: transparent;
+      border: 1px solid var(--input-border);
+      color: var(--text);
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+    }
+
+    .theme-toggle:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    p {
+      font-size: 13px;
+      color: var(--text);
+      margin: 0 0 12px;
+      opacity: 0.85;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1px solid var(--input-border);
+      border-radius: 12px;
+      font-size: 14px;
+      box-sizing: border-box;
+      margin-bottom: 16px;
+      background: var(--input-bg);
+      color: var(--text);
+      transition: border-color 0.3s;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2);
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background: var(--btn-bg);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+    }
+
+    button:hover {
+      background: var(--btn-hover);
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
+
+    .footer {
+      margin-top: 18px;
+      text-align: center;
+      font-size: 11px;
+      color: var(--footer);
+    }
+
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>ilumu</h1>
+    <button class="theme-toggle" id="themeToggle">🌓</button>
+  </div>
+
+  <p>Paste a YouTube video link below:</p>
+  <input type="text" id="ytUrl" placeholder="https://youtube.com/watch?v=..." autocomplete="off" autofocus />
+  <button id="goBtn">Watch Ad-Free on ilumu.com</button>
+
+  <div class="footer">
+    Powered by <a href="https://www.ilumu.com/" target="_blank" rel="noopener">ilumu.com</a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

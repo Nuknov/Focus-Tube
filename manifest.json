@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "ilumu – Ad-Free YouTube",
+  "version": "1.0",
+  "description": "Paste a YouTube link to open it ad-free on ilumu.com",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [],
+  "host_permissions": [],
+  "icons": {
+    "16": "main-icon.png",
+    "32": "main-icon.png",
+    "48": "main-icon.png",
+    "128": "main-icon.png"
+  }
+}
