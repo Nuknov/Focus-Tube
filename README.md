@@ -3,6 +3,8 @@
 [![Version](https://img.shields.io/badge/version-2.0-blue.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Powered by Ilumu.com](https://img.shields.io/badge/Powered%20by-ilumu.com-FF0000?logo=youtube&logoColor=white)](https://Ilumu.com)
+[![Built by Nuknov](https://img.shields.io/badge/Built%20by-Nuknov-000000?logo=github&logoColor=white)](https://github.com/Nuknov)
+[![Red Team Research](https://img.shields.io/badge/Red%20Team%20Research-Nuknov-8B0000?logo=terminal)](https://nuknov.github.io)
 
 **Ilumu** is a lightweight browser extension that removes YouTube distractions including ads, comments, and recommended videos to create a **clean, focused viewing experience**.
 
